@@ -1,20 +1,25 @@
 body
 {
     margin:0px;
-    background-image: url(embossed-diamond.png);
+    background-image: url(images/embossed-diamond.png);
 }
 
 h1
 {
     font-size: 36px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color:#4aaaa5;
+    padding:20px;
+    margin:0px;
+    float:left;
+    color: #ffffff;
 }
 
 .headmaster
 {
     height:76px;
-    border-bottom: 1px solid grey;
-    background-color: white;
+    border-bottom: 1px solid #cccccc;
+    background-color: #ffffff;
 }
 
 .headcontent
@@ -28,15 +33,15 @@ h1
     width:920px;
     margin:auto;
     margin-top: 20px;
-    background-color:white;
+    background-color:#ffffff;
     padding:20px;
-
+    border: solid #dddddd 2px;
 }
 
 .footer
 {
-    border-top: thick solid blue;
-    background-color:grey;
+    border-top: thick solid #4aaaa5;
+    background-color:#666666;
     position:absolute;
     bottom:0px;
     width:100%;
@@ -64,8 +69,8 @@ h1
 
 #middle-menu-item
 {
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
 }
 
 #final-menu-item
@@ -73,12 +78,9 @@ h1
     padding-right: 0px;
 }
 
-h1
+h2
 {
-    background-color:blue;
-    padding:20px;
-    margin:0px;
-    float:left;
+    font-size: 30px;
 }
 
 section
