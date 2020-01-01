@@ -1,0 +1,95 @@
+body
+{
+    margin:0px;
+    background-image: url(embossed-diamond.png);
+}
+
+h1
+{
+    font-size: 36px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.headmaster
+{
+    height:76px;
+    border-bottom: 1px solid grey;
+    background-color: white;
+}
+
+.headcontent
+{
+    width: 960px;
+    margin:auto;
+}
+
+.content
+{
+    width:920px;
+    margin:auto;
+    margin-top: 20px;
+    background-color:white;
+    padding:20px;
+
+}
+
+.footer
+{
+    border-top: thick solid blue;
+    background-color:grey;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    padding-top:50px;
+    text-align:center;
+}
+
+.copyright
+{
+    margin:auto;
+}
+
+.menu
+{
+    float:right;
+    margin: 29px;
+}
+
+.menu-item
+{
+    display:inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#middle-menu-item
+{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+#final-menu-item
+{
+    padding-right: 0px;
+}
+
+h1
+{
+    background-color:blue;
+    padding:20px;
+    margin:0px;
+    float:left;
+}
+
+section
+{
+
+}
+
+.lineBreak
+{
+    width:auto;
+    height:1em;
+    border-bottom: grey solid 1px;
+    margin-bottom: 1em;
+}
