@@ -13,24 +13,30 @@
         <div class="headcontent">
             <h1>Michael Becker</h1>
             <ul class = "menu">
-                <li class = "menu-item">About</li>
-                <li class = "menu-item" id="middle-menu-item">Portfolio</li>
-                <li class = "menu-item" id="final-menu-item">Contact</li>
+                <a href="index.html" class="unstyledLink">
+                    <li class = "menu-item">About</li>
+                </a>
+                <a href="./portfolio.html" class="unstyledLink">
+                    <li class = "menu-item" id="middle-menu-item">Portfolio</li>
+                </a>
+                <a href="./contact.html" class="unstyledLink">
+                    <li class = "menu-item" id="final-menu-item">Contact</li>
+                </a>
             </ul>
         </div>
     </div>
     <div class="content">
-        <h2>About Me</h2>
+        <h2>Contact Me</h2>
         <div class="sectionBreak"></div>
-        <section>
-            <img src="https://via.placeholder.com/250" id="profile">
-            <p>
-                I'm an up-and-coming Web Developer living in North Hollywood. I started programming when I was 14, and since then I've grown proficient in a variety of different languages, from Python to C++. I'm currently taking a class in full-stack web development at UCLA Extension. I've also experimented a bit in several game development suites, such as Unity and Gamemaker. I love programming because I enjoy solving logic problems, and there isn't much more rewarding than sitting back and taking a look at your finished product.
-            </p>
-            <p class = "lastLine">
-                While I am a programmer at heart, I also have several non-programming hobbies. I enjoy writing and literature analysis, and every Tuesday and Saturday I stream my live reaction to the newest chapter of my favorite web serial, Ward, on twitch.tv/thetntm. I also have a Youtube channel, where I occasionally post videos.
-            </p>
-        </section>
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <label for="email">E-mail</label>
+            <input type="text" id="email">
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+            <input type="submit" value="Submit">
+        </form>
     </div>
 
     <div class="footer">
