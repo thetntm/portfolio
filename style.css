@@ -196,3 +196,8 @@ input[type=submit]
 {
     text-decoration: none;
 }
+
+.unstyledLink:hover, .unstyledLink:focus
+{
+    text-decoration: none;
+}
