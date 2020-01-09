@@ -1,0 +1,32 @@
+@font-face
+{
+    font-family: "retroFonts";
+    src: url(./risk-of-rain/riskofrainfont.ttf);
+}
+
+
+body
+{
+    background-color: #000B17;
+}
+
+div
+{
+    border:solid 2px #7FFFEB;
+    font-family: "retroFonts";
+    color: #7FFFEB;
+    padding:1em;
+    margin:1em;
+}
+
+.color2
+{
+    border-color: #9BA1F9;
+    color: #9BA1F9;
+}
+
+.color3
+{
+    border-color: #FF4A18;
+    color: #FF4A18;
+}
